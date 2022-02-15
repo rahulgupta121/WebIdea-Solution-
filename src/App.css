@@ -4,7 +4,13 @@
   height: 79vh;
   width: 50%;
 }
-
+.first-col::before {
+  content: url("./Group.png");
+  position: absolute;
+  right: 405px;
+  /* width: 55px;
+  height: 55vh; */
+}
 .second-row-main-div {
   padding: 20px;
   background-color: #f2f6fc;
@@ -22,6 +28,13 @@
   width: 50%;
   left: 520px;
   /* right: 0; */
+}
+.first-part-col2::before {
+  content: url("./Group.png");
+  position: absolute;
+  left: 405px;
+  /* width: 55px;
+  height: 55vh; */
 }
 .second-part-row2-main-div {
   padding: 40px;

@@ -2,6 +2,7 @@ import "./App.css";
 
 function App() {
   return (
+    <>
     <div className="container about-section-1 mt-5">
       <div className=" first-col "></div>
       <div className="second-row">
@@ -30,6 +31,7 @@ function App() {
           </p>
         </div>
       </div>
+    </div>
       <div className="container d-flex mt-5  about-section-2">
         <div className=" first-part-col2 "></div>
         <div className="second-part-row2">
@@ -52,7 +54,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+      </>
   );
 }
 
