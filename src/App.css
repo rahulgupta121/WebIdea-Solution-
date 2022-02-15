@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.first-col {
+  border: 8px solid #fc5185;
+  position: relative;
+  height: 79vh;
+  width: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.second-row-main-div {
+  padding: 20px;
+  background-color: #f2f6fc;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  left: 513px;
+  top: 44px;
+  width: 50%;
+  box-shadow: 4px 6px 10px 4px rgba(170, 170, 170, 0.4);
 }
-
-.App-link {
-  color: #61dafb;
+.first-part-col2 {
+  border: 8px solid #212832;
+  position: relative;
+  height: 79vh;
+  width: 50%;
+  left: 520px;
+  /* right: 0; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.second-part-row2-main-div {
+  padding: 40px;
+  background-color: #f2f6fc;
+  justify-content: center;
+  position: absolute;
+  right: 467px;
+  bottom: -330px;
+  width: 50%;
+  box-shadow: 4px 6px 10px 4px rgba(170, 170, 170, 0.4);
+}
+.heading-company-2-1 {
+  padding: 5px 0px 0;
+}
+.heading-company-2-2 {
+  padding: 5px 0px 5px 0;
+}
+.heading-company-1-1 {
+  padding: 5px 0px 5px 0;
+}
+.heading-company-1-2 {
+  padding: 5px 0px 5px 0;
+}
+@media (max-width: 786px) {
+  .second-row-main-div {
+    padding: 20px;
+    background-color: #f2f6fc;
+    justify-content: center;
+    position: absolute;
+    left: 513px;
+    top: 44px;
   }
-  to {
-    transform: rotate(360deg);
+  .first-col {
+    border: 5px solid #fc5185;
+    position: relative;
+    height: 50vh;
+    width: 50%;
   }
 }
