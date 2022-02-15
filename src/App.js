@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container about-section-1 mt-5">
       <div className=" first-col "></div>
       <div className="second-row">
         <div className="second-row-main-div">
@@ -30,7 +30,7 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="container d-flex mt-5">
+      <div className="container d-flex mt-5  about-section-2">
         <div className=" first-part-col2 "></div>
         <div className="second-part-row2">
           <div className="second-part-row2-main-div">
